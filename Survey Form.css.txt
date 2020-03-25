@@ -1,0 +1,69 @@
+body {
+
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: white;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#title{
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+
+#description{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background-color: rgb(42, 42, 73);
+  margin-left: 400px;
+  margin-right:400px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+input[type=number], [type=text], [type=email], textarea, select {
+  width: 93%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 93%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
